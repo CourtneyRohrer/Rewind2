@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #1d5888;
-    --secondary-color: #ff0000;
+    --primary-color: #0a5880;
+    --secondary-color: #6BABCC;
     --dark-color: #292929;
     --white-color: #ffffff;
 }
@@ -18,7 +18,12 @@ footer {
     padding-right: 1rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--primary-color);
 }
 
@@ -43,29 +48,29 @@ footer .social>a:hover {
     color: var(--secondary-color);
 }
 
-.bsicon{
+.bsicon {
     color: #8312FA;
-    }
-    
-.jsicon{
-    color: #F0DB4F;
-    }
-    
-.html5icon{
-    color: #E44D26;
-    }
-    
-.cssicon{
-    color: #0A71B8;
-    }
+}
 
-.checklist >li i {
+.jsicon {
+    color: #F0DB4F;
+}
+
+.html5icon {
+    color: #E44D26;
+}
+
+.cssicon {
+    color: #0A71B8;
+}
+
+.checklist>li i {
     color: var(--secondary-color);
-    }
+}
 
 code[class*="language-"],
 pre[class*="language-"] {
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-}  
+}
